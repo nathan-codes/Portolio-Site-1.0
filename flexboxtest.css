@@ -1,0 +1,38 @@
+#mainNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+a,li{
+    text-decoration: none;
+    display: inline-block;
+    margin:0 20px ;
+ 
+    
+}
+
+
+img {
+    height: 7em;
+
+    
+
+    border: 1px solid brown;
+
+}
+
+ul {
+
+    border: 1px solid brown;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+
+button {
+    border: 1px solid brown;
+}

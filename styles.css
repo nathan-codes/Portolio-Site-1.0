@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+#mainNavbar .nav-item a {
+    color: white;
+    font-size: 1rem;
+
+}
+
+#mainNavbar span {
+    color: #ff0054;
+
+}
+
+#mainNavbar .navbar-brand {
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-left: 50px;
+}
+
+
+
+#mainNavbar div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#mainNavbar .nav-item {
+    display: inline-block;
+    margin: 0 40px;
+    position: relative;
+}
+
+#mainNavbar .nav-item::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #ff0054;
+    left: 50%;
+    bottom: -10px;
+    transition: all 0.4s ease-in-out;
+
+}
+
+#mainNavbar .nav-item:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+
+#mainNavbar button {
+
+    border-radius: 20%;
+    padding: 2px 1em;
+}
+
+
+.topSection {
+    background-image: url(img/background.jpg);
+
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
