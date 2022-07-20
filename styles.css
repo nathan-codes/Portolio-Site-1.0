@@ -143,7 +143,7 @@ table {
 
 }
 
-#mainNavbar span {
+.topSection span {
     color: #ff0054;
 
 }
@@ -152,19 +152,19 @@ table {
     color: white;
     font-size: 2rem;
     letter-spacing: 1px;
-    margin-left: 50px;
+    padding-left: 80px;
 }
 
 
 
-#mainNavbar div {
+#mainNavbar #navbarNav {
     display: flex;
     justify-content: space-around;
 }
 
 #mainNavbar .nav-item {
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 2em;
     position: relative;
 }
 
@@ -186,7 +186,7 @@ table {
 }
 
 
-#mainNavbar button {
+#mainNavbar #subscribeButton {
 
     border-radius: 20%;
     padding: 2px 1em;
@@ -200,4 +200,44 @@ table {
     width: 100%;
     background-size: cover;
     background-position: center;
+}
+
+
+.topSection #intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    line-height: 4rem;
+    height: 80vh;
+    width: 50%;
+    margin-left: 10rem;
+
+}
+
+.topSection #intro #one {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+
+
+}
+
+.topSection #intro #two {
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+
+}
+
+.topSection #intro #email {
+    border-color: white;
+  
+}
+
+.topSection #intro #emailGroup {
+    background-color: white;
+    border-color: white;
+    width: 50%;
 }
