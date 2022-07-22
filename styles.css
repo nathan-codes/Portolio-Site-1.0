@@ -241,3 +241,40 @@ table {
     border-color: white;
     width: 50%;
 }
+
+
+
+#summarySection {
+    background-color: #1A1A1B;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#summarySection h2 {
+    font-weight: 600;
+}
+
+
+#summarySection h3 {
+    font-weight: bold;
+
+   
+}
+
+#summarySection #right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 1.5;
+  
+}
+/* #summarySection #left {
+
+}
+ */
