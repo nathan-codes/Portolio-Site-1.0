@@ -233,7 +233,7 @@ table {
 
 .topSection #intro #email {
     border-color: white;
-  
+
 }
 
 .topSection #intro #emailGroup {
@@ -251,19 +251,11 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-}
-
-#summarySection h2 {
-    font-weight: 600;
 }
 
 
 #summarySection h3 {
     font-weight: bold;
-
-   
 }
 
 #summarySection #right {
@@ -272,9 +264,34 @@ table {
     align-items: flex-start;
     justify-content: center;
     line-height: 1.5;
+    color: #ce739a; 
+}
+
+
+#summarySection #right #summary {
+    font-weight: 500;
   
 }
-/* #summarySection #left {
+
+#ServicesSection {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
- */
+
+#title {
+    font-weight: 600;
+}
+
+
+#ServicesSection .card{
+    background-color: #1A1A1B;
+    border-radius: 13px;
+    
+
+}
