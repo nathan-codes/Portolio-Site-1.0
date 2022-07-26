@@ -109,7 +109,7 @@ section {
 
 body {
     line-height: 1;
-
+    background-color: black;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -293,7 +293,7 @@ table {
     background-color: #1A1A1B;
     border-radius: 13px;
     width: 80%;
- 
+
 }
 
 
@@ -315,4 +315,13 @@ table {
 
 #ServicesSection #cardbutton {
     font-size: 0.85em;
+}
+
+
+#HireMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+    background-color: #1A1A1B;
 }
