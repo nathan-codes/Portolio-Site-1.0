@@ -293,9 +293,7 @@ table {
     background-color: #1A1A1B;
     border-radius: 13px;
     width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+ 
 }
 
 
@@ -311,10 +309,6 @@ table {
     font-size: 0.9em;
     line-height: 1.5;
     color: #ce739a;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
 }
 
