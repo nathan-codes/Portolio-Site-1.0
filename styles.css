@@ -264,13 +264,13 @@ table {
     align-items: flex-start;
     justify-content: center;
     line-height: 1.5;
-    color: #ce739a; 
+    color: #ce739a;
 }
 
 
 #summarySection #right #summary {
     font-weight: 500;
-  
+
 }
 
 #ServicesSection {
@@ -289,9 +289,36 @@ table {
 }
 
 
-#ServicesSection .card{
+#ServicesSection .card {
     background-color: #1A1A1B;
     border-radius: 13px;
-    
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+
+#ServicesSection .card-title {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+#ServicesSection .card-text {
+
+
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #ce739a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#ServicesSection #cardbutton {
+    font-size: 0.85em;
 }
