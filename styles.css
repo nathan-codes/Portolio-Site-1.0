@@ -295,6 +295,11 @@ table {
     width: 80%;
 
 }
+#ServicesSection #bars{
+    color: #ff0054;
+   font-size: 3em;
+   margin-bottom: 0.75em;
+}
 
 
 #ServicesSection .card-title {
@@ -337,5 +342,26 @@ table {
 
 #contac #para {
   width: 30%;
+  line-height: 1.5;
 
 }
+
+#contac #pa {
+    color: #ce739a;
+   
+  }
+
+
+
+  #contac .fab {
+
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #ff0054;
+    color: white;
+    font-size: 30px;
+    margin: 20px 10px;
+ 
+  }
+
+  
